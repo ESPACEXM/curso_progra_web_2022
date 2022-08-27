@@ -1,0 +1,52 @@
+.articulo{
+    background: rgb(105, 118, 215);
+    border: 4px solid black;
+    padding: 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.articulo2{
+    background: gray;
+    border: 4px solid black;
+    padding: 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.articulo3{
+    background: rgb(141, 74, 49);
+    border: 4px solid black;
+    padding: 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.articulo4{
+    background: rgb(148, 107, 92);
+    border: 4px solid black;
+    padding: 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.articulo5{
+    background: orangered;
+    border: 4px solid black;
+    padding: 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+article footer {
+    text-align: right;
+    color: blue;
+}
+
+figcaption{
+    font: italic 8px sans-serif;
+}
+
+div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 80px;
+}
+.reproductor{
+    display: block;
+}
+
+/*Codigo que le da efecto a las imagenes*/
+.galeria{
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: 10px;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.galeria img{
+    width: 100%;
+    vertical-align: 15px;
+    height: 340px;
+    object-fit: cover;
+    transition: transform 0.5s;
+
+}
+
+.galeria a:hover img{
+    filter: blur(5px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+
+
