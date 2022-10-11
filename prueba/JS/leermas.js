@@ -1,3 +1,4 @@
+
 let readMore_btn = document.getElementById('readMore_btn');
 let hideText = document.getElementById('hideText');
 
@@ -83,3 +84,6 @@ function toggleText2() {
     }
     
   }
+
+
+

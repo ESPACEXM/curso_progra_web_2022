@@ -38,7 +38,7 @@ h6{
 /* DISEÑO DEL TEMPLATE */
 
 #divGeneral{
-    width: 980px;
+    width: 1300px;
     margin: 15px auto;
     text-align: left;
 }
@@ -47,14 +47,16 @@ h6{
     background: orangered;
     padding: 20px;
     color: white;
-    
+   
     
 }
+
 #cabecera2{
     background: olive;
     padding: 20px;
     color: white;
 }
+
 
 #cabecera3{
     background: peru;
@@ -93,7 +95,6 @@ h6{
     display: inline-block;
     list-style: none;
     padding: 5px;
-    
     font: bold 14px sans-serif;
     
 }
@@ -104,10 +105,14 @@ h6{
 #lista{
     margin: 20px;
 }
+#cabecera img{
+    float: right;
+    width: 70px;
+}
 
 #seccionPrincipal{
-    float: left;
-    width: 650px;
+    float: right;
+    width: 960px;
     margin: 20px;
 }
 
@@ -356,3 +361,5 @@ h6{
   .showText2 {
     display: block;
   }
+
+/**/
